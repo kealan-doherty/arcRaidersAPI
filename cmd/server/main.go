@@ -1,25 +1,34 @@
 package main
 
 import (
+	"context"
 	"fmt"
-	"net/http"
+	"log"
+	"os"
 
-	"github.com/gin-gonic/gin"
+	"github.com/jackc/pgx/v5"
 )
 
 func main() {
-	// Create the Gin Router
-	router := gin.Default()
 
-	//Register Routes
-	router.GET("/", HomePage)
+	DB_CONNECT := os.Getenv("DB_CONNECT")
+	DB_USER := os.Getenv("DB_USER")
+	DB_PASSWORD := os.Getenv("DB_PASSWORD")
 
-	//start the API
-	router.Run()
-	fmt.Printf("server is up and running")
+	// For IAM/Secrets: inject via env or fetch before run.
+	dsn := fmt.Sprintf(DB_CONNECT, DB_USER, DB_PASSWORD)
 
-}
+	conn, err := pgx.Connect(context.Background(), dsn)
+	
+	if err != nil {
+		log.Fatalf("Unable to connect: %v", err)
+	}
+	defer conn.Close(context.Background())
 
-func HomePage(c *gin.Context) {
-	c.String(http.StatusOK, "this is the home page of the ARC Raiders API router")
+	var v string
+	if err := conn.QueryRow(context.Background(), "SELECT version()").Scan(&v); err != nil {
+		log.Fatalf("Query failed: %v", err)
+	}
+	fmt.Println(v)
+
 }
