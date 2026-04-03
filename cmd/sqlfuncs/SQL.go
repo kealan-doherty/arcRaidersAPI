@@ -5,14 +5,21 @@ package sqlfuncs
 import (
 	"context"
 	"fmt"
+	"os"
 
 	"github.com/jackc/pgx/v5"
 )
 
 func ConnectToDB() (*pgx.Conn, error) {
-	password := "REDACTED_SECRET"
+	DB_CONNECT := os.Getenv("DB_CONNECT")
+	DB_USER := os.Getenv("DB_USER")
+	DB_PASSWORD := os.Getenv("DB_PASSWORD")
 
-	dsn := fmt.Sprintf("postgres://%s:%s@REDACTED_HOST:5432/postgres?sslmode=verify-full&sslrootcert=/certs/global-bundle.pem", "REDACTED_USER", password)
+	if DB_CONNECT == "" || DB_USER == "" || DB_PASSWORD == "" {
+		return nil, fmt.Errorf("database env vars DB_CONNECT, DB_USER, and DB_PASSWORD are required")
+	}
+
+	dsn := fmt.Sprintf(DB_CONNECT, DB_USER, DB_PASSWORD)
 
 	conn, err := pgx.Connect(context.Background(), dsn)
 	if err != nil {
