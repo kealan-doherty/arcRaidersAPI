@@ -35,3 +35,21 @@ func DisconnectDB(conn *pgx.Conn) error {
 	}
 	return nil
 }
+
+func CreateTable(conn *pgx.Conn) error {
+	_, err := conn.Exec(context.Background(), `
+		CREATE TABLE IF NOT EXISTS items (
+			id TEXT PRIMARY KEY,
+			type TEXT,
+			rarity TEXT,
+			weightkg NUMERIC(5,2),
+			value NUMERIC,
+			isWeapon BOOLEAN
+		)
+	`)
+	if err != nil {
+		return err
+	}
+
+	return nil
+}
