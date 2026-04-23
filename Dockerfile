@@ -45,6 +45,12 @@ FROM scratch AS final
 # Added for RDS cert paths used by the app.
 COPY global-bundle.pem /certs/global-bundle.pem
 
+# Seed data used by AddItems at startup.
+COPY data.csv /data.csv
+
+# Default seed file path for container runtime.
+ENV ITEMS_CSV_PATH=/data.csv
+
 # Run as a non-root user ID.
 USER 10001:10001
 

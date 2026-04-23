@@ -4,8 +4,13 @@ package sqlfuncs
 
 import (
 	"context"
+	"encoding/csv"
 	"fmt"
+	"io"
+	"log"
 	"os"
+	"strconv"
+	"strings"
 
 	"github.com/jackc/pgx/v5"
 )
@@ -44,7 +49,7 @@ func CreateTable(conn *pgx.Conn) error {
 			rarity TEXT,
 			weightkg NUMERIC(5,2),
 			value NUMERIC,
-			isWeapon BOOLEAN
+			isweapon BOOLEAN
 		)
 	`)
 	if err != nil {
@@ -52,4 +57,108 @@ func CreateTable(conn *pgx.Conn) error {
 	}
 
 	return nil
+}
+
+func AddItems(conn *pgx.Conn) error {
+	csvPath := strings.TrimSpace(os.Getenv("ITEMS_CSV_PATH"))
+	if csvPath == "" {
+		csvPath = "data.csv"
+	}
+
+	if cwd, err := os.Getwd(); err == nil {
+		log.Printf("AddItems: cwd=%s csv_path=%s", cwd, csvPath)
+	}
+
+	file, err := os.Open(csvPath)
+	if err != nil && csvPath == "data.csv" {
+		fallback := "/data.csv"
+		log.Printf("AddItems: primary csv path unavailable, trying fallback path=%s", fallback)
+		file, err = os.Open(fallback)
+		if err == nil {
+			csvPath = fallback
+		}
+	}
+	if err != nil {
+		return fmt.Errorf("open data.csv at %s: %w", csvPath, err)
+	}
+	defer file.Close()
+
+	reader := csv.NewReader(file)
+	if _, err := reader.Read(); err != nil {
+		return fmt.Errorf("read csv header: %w", err)
+	}
+
+	rows := make([][]any, 0, 1024)
+	for {
+		record, err := reader.Read()
+		if err == io.EOF {
+			break
+		}
+		if err != nil {
+			return fmt.Errorf("read csv row: %w", err)
+		}
+
+		if len(record) != 6 {
+			return fmt.Errorf("expected 6 columns, got %d", len(record))
+		}
+
+		weightKg, err := parseNullableFloat(record[3])
+		if err != nil {
+			return fmt.Errorf("invalid weightkg for item %q: %w", record[0], err)
+		}
+
+		value, err := parseNullableFloat(record[4])
+		if err != nil {
+			return fmt.Errorf("invalid value for item %q: %w", record[0], err)
+		}
+
+		isWeapon, err := strconv.ParseBool(strings.TrimSpace(record[5]))
+		if err != nil {
+			return fmt.Errorf("invalid isWeapon for item %q: %w", record[0], err)
+		}
+
+		rows = append(rows, []any{
+			strings.TrimSpace(record[0]),
+			strings.TrimSpace(record[1]),
+			strings.TrimSpace(record[2]),
+			weightKg,
+			value,
+			isWeapon,
+		})
+	}
+
+	if len(rows) == 0 {
+		log.Printf("AddItems: no rows parsed from csv")
+		return nil
+	}
+
+	log.Printf("AddItems: parsed rows=%d", len(rows))
+
+	copiedCount, err := conn.CopyFrom(
+		context.Background(),
+		pgx.Identifier{"items"},
+		[]string{"id", "type", "rarity", "weightkg", "value", "isWeapon"},
+		pgx.CopyFromRows(rows),
+	)
+	if err != nil {
+		return fmt.Errorf("copy items into table: %w", err)
+	}
+
+	log.Printf("AddItems: copied rows=%d", copiedCount)
+
+	return nil
+}
+
+func parseNullableFloat(raw string) (any, error) {
+	trimmed := strings.TrimSpace(raw)
+	if trimmed == "" {
+		return nil, nil
+	}
+
+	parsed, err := strconv.ParseFloat(trimmed, 64)
+	if err != nil {
+		return nil, err
+	}
+
+	return parsed, nil
 }

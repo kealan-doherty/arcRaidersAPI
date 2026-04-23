@@ -1,530 +1,539 @@
 id,type,rarity,weightKg,value,isWeapon
-major_aivas_patch,Trinket,Common,0.25,,
-muzzle_brake_i,Modification,Common,0.25,640,
-blue_gate_communication_tower_key,Key,Rare,0.25,100,
-oil,Topside Material,Uncommon,0.25,300,
-fireworks_box,Quick Use,Rare,0.5,2000,
-dam_surveillance_key,Key,Uncommon,0.25,100,
-combat_mk1,Augment,Uncommon,2,640,
-vita_spray_blueprint,Blueprint,Common,,5000,
-great_mullein,Topside Material,Uncommon,0.25,300,
-seeker_grenade_blueprint,Blueprint,Common,0,5000,
-compensator_iii,Modification,Rare,0.75,5000,
-dusty_film_reel,Trinket,Common,0,0,
-osprey_blueprint,Blueprint,Common,0,5000,
-tactical_mk1,Augment,Uncommon,2,640,
-tactical_mk3_healing,Augment,Epic,4,5000,
-anvil_blueprint,Blueprint,Common,0,5000,
-shotgun_choke_ii,Modification,Uncommon,0.5,2000,
-wires,Topside Material,Uncommon,0.25,200,
+major_aivas_patch,Trinket,Common,0.25,,false
+muzzle_brake_i,Modification,Common,0.25,640,false
+blue_gate_communication_tower_key,Key,Rare,0.25,100,false
+oil,Topside Material,Uncommon,0.25,300,false
+fireworks_box,Quick Use,Rare,0.5,2000,false
+dam_surveillance_key,Key,Uncommon,0.25,100,false
+combat_mk1,Augment,Uncommon,2,640,false
+vita_spray_blueprint,Blueprint,Common,,5000,false
+great_mullein,Topside Material,Uncommon,0.25,300,false
+seeker_grenade_blueprint,Blueprint,Common,0,5000,false
+compensator_iii,Modification,Rare,0.75,5000,false
+dusty_film_reel,Trinket,Common,0,0,false
+osprey_blueprint,Blueprint,Common,0,5000,false
+tactical_mk1,Augment,Uncommon,2,640,false
+tactical_mk3_healing,Augment,Epic,4,5000,false
+anvil_blueprint,Blueprint,Common,0,5000,false
+shotgun_choke_ii,Modification,Uncommon,0.5,2000,false
+wires,Topside Material,Uncommon,0.25,200,false
 hairpin_i,Pistol,Common,3,450,True
-vita_shot_blueprint,Blueprint,Common,0,5000,
-magnet,Topside Material,Uncommon,0.25,300,
-shrapnel_grenade,Quick Use,Uncommon,0.15,800,
-light_shield,Shield,Uncommon,5,640,
-moss,Topside Material,Rare,0.3,500,
+vita_shot_blueprint,Blueprint,Common,0,5000,false
+magnet,Topside Material,Uncommon,0.25,300,false
+shrapnel_grenade,Quick Use,Uncommon,0.15,800,false
+light_shield,Shield,Uncommon,5,640,false
+moss,Topside Material,Rare,0.3,500,false
 arpeggio_ii,Assault Rifle,Uncommon,7,8000,True
-looting_mk3_cautious,Augment,Epic,3,5000,
-looting_mk2,Augment,Rare,2,2000,
-tempest_blueprint,Blueprint,Common,0,5000,
-fruit_mix,Quick Use,Uncommon,0.3,1800,
-jupiter_blueprint,Blueprint,Common,0,5000,
-music_box,Trinket,Rare,0.4,5000,
-bobcat_blueprint,Blueprint,Common,0,5000,
-candleberries,Nature,Rare,0.5,460,
-playing_cards,Trinket,Rare,0.2,5000,
-empty_wine_bottle,Trinket,Common,0.2,1000,
-rubber_parts,Basic Material,Common,0.1,50,
-arc_motion_core,Topside Material,Rare,0.3,1000,
-headphones,Recyclable,Rare,2,1000,
-faded_photograph,Trinket,Common,0.3,640,
-complex_gun_parts_blueprint,Blueprint,Common,0,5000,
-very_comfortable_pillow,Trinket,Uncommon,0.3,2000,
-damaged_snitch_scanner,Recyclable,Common,0.25,659,
-experimental_seed_sample,Trinket,Common,0.25,,
-vertical_grip_ii,Modification,Uncommon,0.5,2000,
-stable_stock_ii,Modification,Uncommon,0.5,2000,
-extended_shotgun_mag_i,Modification,Common,0.25,640,
-household_cleaner,Recyclable,Uncommon,0.8,640,
-spaceport_warehouse_key,Key,Uncommon,0.25,100,
+looting_mk3_cautious,Augment,Epic,3,5000,false
+looting_mk2,Augment,Rare,2,2000,false
+tempest_blueprint,Blueprint,Common,0,5000,false
+fruit_mix,Quick Use,Uncommon,0.3,1800,false
+jupiter_blueprint,Blueprint,Common,0,5000,false
+music_box,Trinket,Rare,0.4,5000,false
+bobcat_blueprint,Blueprint,Common,0,5000,false
+candleberries,Nature,Rare,0.5,460,false
+playing_cards,Trinket,Rare,0.2,5000,false
+empty_wine_bottle,Trinket,Common,0.2,1000,false
+rubber_parts,Basic Material,Common,0.1,50,false
+arc_motion_core,Topside Material,Rare,0.3,1000,false
+headphones,Recyclable,Rare,2,1000,false
+faded_photograph,Trinket,Common,0.3,640,false
+complex_gun_parts_blueprint,Blueprint,Common,0,5000,false
+very_comfortable_pillow,Trinket,Uncommon,0.3,2000,false
+damaged_snitch_scanner,Recyclable,Common,0.25,659,false
+experimental_seed_sample,Trinket,Common,0.25,,false
+vertical_grip_ii,Modification,Uncommon,0.5,2000,false
+stable_stock_ii,Modification,Uncommon,0.5,2000,false
+extended_shotgun_mag_i,Modification,Common,0.25,640,false
+household_cleaner,Recyclable,Uncommon,0.8,640,false
+spaceport_warehouse_key,Key,Uncommon,0.25,100,false
 rattler_i,Assault Rifle,Common,6,1750,True
-herbal_bandage,Quick Use,Uncommon,0.15,900,
+herbal_bandage,Quick Use,Uncommon,0.15,900,false
 renegade_i,Battle Rifle,Rare,10,7000,True
-blue_gate_cellar_key,Key,Rare,0.25,100,
+blue_gate_cellar_key,Key,Rare,0.25,100,false
 burletta_iii,Pistol,Uncommon,4,7000,True
-surveyor_vault,Recyclable,Rare,1,1000,
-extended_light_mag_i,Modification,Common,0.25,640,
-voltage_converter,Topside Material,Rare,0.3,500,
-kinetic_converter,Modification,Legendary,0.75,7000,
-rubber_pad,Recyclable,Rare,2,1000,
+surveyor_vault,Recyclable,Rare,1,1000,false
+extended_light_mag_i,Modification,Common,0.25,640,false
+voltage_converter,Topside Material,Rare,0.3,500,false
+kinetic_converter,Modification,Legendary,0.75,7000,false
+rubber_pad,Recyclable,Rare,2,1000,false
 bobcat_iv,SMG,Epic,7,27000,True
-vertical_grip_ii_blueprint,Blueprint,Common,0,5000,
-hornet_driver,Recyclable,Rare,0.75,1000,
-lances_mixtape_5th_edition,Trinket,Epic,0.2,10000,
-extended_medium_mag_ii_blueprint,Blueprint,Common,0,5000,
-official_shutdown_documentation,Trinket,Common,0.5,0,
-torn_book,Trinket,Common,0.3,1000,
-possibly_toxic_plant,Trinket,Common,0.5,0,
-sterilized_bandage,Quick Use,Rare,0.2,2000,
-humidifier,Recyclable,Rare,2,1000,
-volcanic_rock,Misc,Common,0.5,270,
-il_toro_blueprint,Blueprint,Common,0,5000,
-medium_gun_parts_blueprint,Blueprint,Common,0,5000,
-patrol_car_key,Key,Uncommon,0.01,100,
+vertical_grip_ii_blueprint,Blueprint,Common,0,5000,false
+hornet_driver,Recyclable,Rare,0.75,1000,false
+lances_mixtape_5th_edition,Trinket,Epic,0.2,10000,false
+extended_medium_mag_ii_blueprint,Blueprint,Common,0,5000,false
+official_shutdown_documentation,Trinket,Common,0.5,0,false
+torn_book,Trinket,Common,0.3,1000,false
+possibly_toxic_plant,Trinket,Common,0.5,0,false
+sterilized_bandage,Quick Use,Rare,0.2,2000,false
+humidifier,Recyclable,Rare,2,1000,false
+volcanic_rock,Misc,Common,0.5,270,false
+il_toro_blueprint,Blueprint,Common,0,5000,false
+medium_gun_parts_blueprint,Blueprint,Common,0,5000,false
+patrol_car_key,Key,Uncommon,0.01,100,false
 arpeggio_i,Assault Rifle,Uncommon,7,5500,True
-spectrometer,Recyclable,Rare,1.5,3000,
-tattered_clothes,Recyclable,Uncommon,0.8,640,
-extended_medium_mag_iii_blueprint,Blueprint,Common,0,5000,
-crude_explosives,Refined Material,Uncommon,0.5,270,
+spectrometer,Recyclable,Rare,1.5,3000,false
+tattered_clothes,Recyclable,Uncommon,0.8,640,false
+extended_medium_mag_iii_blueprint,Blueprint,Common,0,5000,false
+crude_explosives,Refined Material,Uncommon,0.5,270,false
 bobcat_iii,SMG,Epic,7,22000,True
-film_reel,Trinket,Rare,0.2,2000,
-angled_grip_i,Modification,Common,0.25,640,
-lure_grenade_blueprint,Blueprint,Common,0,5000,
-advanced_arc_powercell,Topside Material,Rare,0.5,640,
-projector,Recyclable,Rare,2,1000,
-espresso_machine_parts,Trinket,Common,0.5,0,
-muzzle_brake_iii_blueprint,Blueprint,Common,0,5000,
-showstopper,Quick Use,Rare,0.4,2100,
-broken_guidance_system,Recyclable,Rare,3,2000,
-lemon,Nature,Uncommon,0.2,640,
-extended_medium_mag_i,Modification,Common,0.25,640,
-synthesized_fuel,Topside Material,Rare,0.5,700,
-duct_tape,Topside Material,Uncommon,0.25,300,
-antiseptic,Refined Material,Rare,1,1000,
-ruined_handcuffs,Recyclable,Uncommon,0.8,640,
-flame_spray,Quick Use,Uncommon,1,2000,
-spotter_relay,Recyclable,Uncommon,1,1000,
-breathtaking_snow_globe,Trinket,Epic,0.2,7000,
-fried_motherboard,Recyclable,Rare,3,2000,
-dodgers_note,Trinket,Common,0.5,0,
-toaster,Recyclable,Rare,2,1000,
-crumpled_plastic_bottle,Recyclable,Uncommon,0.8,270,
-rusted_tools,Recyclable,Rare,2,1000,
-ruined_riot_shield,Recyclable,Rare,2,1000,
-battery,Topside Material,Uncommon,0.25,250,
-rocket_thruster,Recyclable,Rare,3,2000,
+film_reel,Trinket,Rare,0.2,2000,false
+angled_grip_i,Modification,Common,0.25,640,false
+lure_grenade_blueprint,Blueprint,Common,0,5000,false
+advanced_arc_powercell,Topside Material,Rare,0.5,640,false
+projector,Recyclable,Rare,2,1000,false
+espresso_machine_parts,Trinket,Common,0.5,0,false
+muzzle_brake_iii_blueprint,Blueprint,Common,0,5000,false
+showstopper,Quick Use,Rare,0.4,2100,false
+broken_guidance_system,Recyclable,Rare,3,2000,false
+lemon,Nature,Uncommon,0.2,640,false
+extended_medium_mag_i,Modification,Common,0.25,640,false
+synthesized_fuel,Topside Material,Rare,0.5,700,false
+duct_tape,Topside Material,Uncommon,0.25,300,false
+antiseptic,Refined Material,Rare,1,1000,false
+ruined_handcuffs,Recyclable,Uncommon,0.8,640,false
+flame_spray,Quick Use,Uncommon,1,2000,false
+spotter_relay,Recyclable,Uncommon,1,1000,false
+breathtaking_snow_globe,Trinket,Epic,0.2,7000,false
+fried_motherboard,Recyclable,Rare,3,2000,false
+dodgers_note,Trinket,Common,0.5,0,false
+toaster,Recyclable,Rare,2,1000,false
+crumpled_plastic_bottle,Recyclable,Uncommon,0.8,270,false
+rusted_tools,Recyclable,Rare,2,1000,false
+ruined_riot_shield,Recyclable,Rare,2,1000,false
+battery,Topside Material,Uncommon,0.25,250,false
+rocket_thruster,Recyclable,Rare,3,2000,false
 bettina_iv,Assault Rifle,Epic,11,18000,True
-trigger_nade,Quick Use,Rare,0.4,1000,
-trailblazer,Quick Use,Rare,1,2200,
-rusty_arc_steel,Recyclable,Uncommon,1,640,
-extended_barrel_blueprint,Blueprint,Common,0,5000,
+trigger_nade,Quick Use,Rare,0.4,1000,false
+trailblazer,Quick Use,Rare,1,2200,false
+rusty_arc_steel,Recyclable,Uncommon,1,640,false
+extended_barrel_blueprint,Blueprint,Common,0,5000,false
 renegade_iv,Battle Rifle,Rare,10,17000,True
-damaged_tick_pod,Recyclable,Common,0.083,270,
-damaged_fireball_burner,Recyclable,Common,1,270,
-statuette,Trinket,Rare,0.3,3000,
-queen_reactor,Recyclable,Legendary,10,11000,
-stable_stock_ii_blueprint,Blueprint,Common,0,5000,
-celeste_journal,Trinket,Common,0.25,,
-lightweight_stock,Modification,Epic,0.25,5000,
-adrenaline_shot,Quick Use,Common,0.2,300,
+damaged_tick_pod,Recyclable,Common,0.083,270,false
+damaged_fireball_burner,Recyclable,Common,1,270,false
+statuette,Trinket,Rare,0.3,3000,false
+queen_reactor,Recyclable,Legendary,10,11000,false
+stable_stock_ii_blueprint,Blueprint,Common,0,5000,false
+celeste_journal,Trinket,Common,0.25,,false
+lightweight_stock,Modification,Epic,0.25,5000,false
+adrenaline_shot,Quick Use,Common,0.2,300,false
 bettina_iii,Assault Rifle,Epic,11,14000,True
-yellow_light_stick,Quick Use,Common,0.15,150,
-explosive_mine,Quick Use,Rare,0.5,1500,
-stable_stock_iii_blueprint,Blueprint,Common,0,5000,
-raider_hatch_key,Key,Rare,0.01,2000,
-green_light_stick,Quick Use,Common,0.15,150,
-laboratory_reagents,Recyclable,Rare,3,2000,
-secret_meeting_info,Trinket,Common,0.5,0,
-vita_spray,Quick Use,Epic,1,3400,
+yellow_light_stick,Quick Use,Common,0.15,150,false
+explosive_mine,Quick Use,Rare,0.5,1500,false
+stable_stock_iii_blueprint,Blueprint,Common,0,5000,false
+raider_hatch_key,Key,Rare,0.01,2000,false
+green_light_stick,Quick Use,Common,0.15,150,false
+laboratory_reagents,Recyclable,Rare,3,2000,false
+secret_meeting_info,Trinket,Common,0.5,0,false
+vita_spray,Quick Use,Epic,1,3400,false
 ferro_ii,Battle Rifle,Common,8,1000,True
 stitcher_iii,SMG,Common,5,3000,True
-dart_board,Trinket,Uncommon,1,2000,
-compensator_ii,Modification,Uncommon,0.5,2000,
-defibrillator_blueprint,Blueprint,Common,0,5000,
-alarm_clock,Recyclable,Rare,2,1000,
-tactical_mk2,Augment,Rare,2,2000,
-gas_mine_blueprint,Blueprint,Common,0,5000,
-diving_goggles,Recyclable,Rare,2,640,
-first_wave_tape,Trinket,Common,0.25,,
-compensator_iii_blueprint,Blueprint,Common,0,5000,
-deadline,Quick Use,Epic,1,6000,
-familiar_duck,Trinket,Epic,0.3,7000,
-unusable_weapon,Recyclable,Rare,3,2000,
-first_wave_compass,Trinket,Common,0.25,,
-tactical_mk3_defensive,Augment,Epic,5,5000,
-ancient_fort_security_code,Key,Common,0.25,100,
-launcher_ammo,Ammunition,Rare,0.1,250,
+dart_board,Trinket,Uncommon,1,2000,false
+compensator_ii,Modification,Uncommon,0.5,2000,false
+defibrillator_blueprint,Blueprint,Common,0,5000,false
+alarm_clock,Recyclable,Rare,2,1000,false
+tactical_mk2,Augment,Rare,2,2000,false
+gas_mine_blueprint,Blueprint,Common,0,5000,false
+diving_goggleson,Recyclable,Rare,2,2000,false
+bicycle_pump,Recyclable,Rare,3,2000,false
+shotgun_chok,Recyclable,Rare,2,640,false
+first_wave_tape,Trinket,Common,0.25,,false
+compensator_iii_blueprint,Blueprint,Common,0,5000,false
+deadline,Quick Use,Epic,1,6000,false
+familiar_duck,Trinket,Epic,0.3,7000,false
+unusable_weapon,Recyclable,Rare,3,2000,false
+first_wave_compass,Trinket,Common,0.25,,false
+tactical_mk3_defensive,Augment,Epic,5,5000,false
+ancient_fort_security_code,Key,Common,0.25,100,false
+launcher_ammo,Ammunition,Rare,0.1,250,false
 vulcano_iv,Shotgun,Epic,8,22000,True
-extended_medium_mag_iii,Modification,Rare,0.75,5000,
-extended_medium_mag_ii,Modification,Uncommon,0.5,2000,
-dam_utility_key,Key,Uncommon,0.25,100,
-ruined_accordion,Recyclable,Rare,3,2000,
-syringe,Topside Material,Rare,0.3,500,
-telemetry_transceiver,Recyclable,Rare,1.5,3000,
-torrente_blueprint,Blueprint,Common,0,5000,
-silencer_i,Modification,Uncommon,0.25,2000,
-air_freshener,Trinket,Uncommon,0.3,2000,
+extended_medium_mag_iii,Modification,Rare,0.75,5000,false
+extended_medium_mag_ii,Modification,Uncommon,0.5,2000,false
+dam_utility_key,Key,Uncommon,0.25,100,false
+ruined_accordion,Recyclable,Rare,3,2000,false
+syringe,Topside Material,Rare,0.3,500,false
+telemetry_transceiver,Recyclable,Rare,1.5,3000,false
+torrente_blueprint,Blueprint,Common,0,5000,false
+silencer_i,Modification,Uncommon,0.25,2000,false
+air_freshener,Trinket,Uncommon,0.3,2000,false
 tempest_iii,Assault Rifle,Epic,11,22000,True
-dam_controlled_access_zone_key,Key,Epic,0.25,100,
-dolabra_blueprint,Blueprint,Common,0,5000,
-compensator_i,Modification,Common,0.25,640,
-damaged_hornet_driver,Recyclable,Common,0.3,640,
-silencer_iii,Modification,Epic,0.75,7000,
-burnt_out_candles,Trinket,Common,0.2,640,
-zipline,Quick Use,Rare,0.4,1000,
-plastic_parts,Basic Material,Common,0.1,60,
-blue_light_stick_blueprint,Blueprint,Common,0,5000,
-exodus_modules,Topside Material,Epic,1,2750,
-bastion_cell,Recyclable,Epic,1,3000,
-resin,Nature,Common,0.4,1000,
-remote_control,Recyclable,Rare,0.8,1000,
+dam_controlled_access_zone_key,Key,Epic,0.25,100,false
+dolabra_blueprint,Blueprint,Common,0,5000,false
+compensator_i,Modification,Common,0.25,640,false
+damaged_hornet_driver,Recyclable,Common,0.3,640,false
+silencer_iii,Modification,Epic,0.75,7000,false
+burnt_out_candles,Trinket,Common,0.2,640,false
+zipline,Quick Use,Rare,0.4,1000,false
+plastic_parts,Basic Material,Common,0.1,60,false
+blue_light_stick_blueprint,Blueprint,Common,0,5000,false
+exodus_modules,Topside Material,Epic,1,2750,false
+bastion_cell,Recyclable,Epic,1,3000,false
+resin,Nature,Common,0.4,1000,false
+remote_control,Recyclable,Rare,0.8,1000,false
 arpeggio_iii,Assault Rifle,Uncommon,7,11500,True
 torrente_ii,LMG,Rare,12,10000,True
-matriarch_reactor,Recyclable,Legendary,10,11000,
-combat_mk2,Augment,Rare,3,2000,
-durable_cloth,Refined Material,Uncommon,0.25,640,
-surge_coil_blueprint,Blueprint,Common,0,5000,
-lure_grenade,Quick Use,Uncommon,0.4,1000,
-deflated_football,Recyclable,Uncommon,0.8,1000,
-sample_cleaner,Recyclable,Rare,1.5,3000,
-surge_shield_recharger,Quick Use,Rare,0.2,1200,
-assessor_matrix,Recyclable,Epic,0.5,5000,
-vaporizer_regulator,Recyclable,Epic,0.5,6000,
-scout_patrol_note,Trinket,Common,0.5,0,
-muzzle_brake_ii_blueprint,Blueprint,Common,0,5000,
-gas_grenade_trap,Quick Use,Common,0.25,300,
-dog_collar,Recyclable,Rare,0.8,640,
+matriarch_reactor,Recyclable,Legendary,10,11000,false
+combat_mk2,Augment,Rare,3,2000,false
+durable_cloth,Refined Material,Uncommon,0.25,640,false
+surge_coil_blueprint,Blueprint,Common,0,5000,false
+lure_grenade,Quick Use,Uncommon,0.4,1000,false
+deflated_football,Recyclable,Uncommon,0.8,1000,false
+sample_cleaner,Recyclable,Rare,1.5,3000,false
+surge_shield_recharger,Quick Use,Rare,0.2,1200,false
+assessor_matrix,Recyclable,Epic,0.5,5000,false
+vaporizer_regulator,Recyclable,Epic,0.5,6000,false
+scout_patrol_note,Trinket,Common,0.5,0,false
+muzzle_brake_ii_blueprint,Blueprint,Common,0,5000,false
+gas_grenade_trap,Quick Use,Common,0.25,300,false
+dog_collar,Recyclable,Rare,0.8,640,false
 anvil_i,Hand Cannon,Uncommon,5,5000,True
 kettle_iii,Assault Rifle,Common,7,3000,True
-spaceport_control_tower_key,Key,Rare,0.25,100,
-explosive_mine_blueprint,Blueprint,Common,0,5000,
-rattler_ii,Assault Rifle,Common,6,3000,True
-canto_iv,SMG,Legendary,6.5,17000,
+spaceport_control_tower_key,Key,Rare,0.25,100,false
+explosive_mine_blueprint,Blueprint,Common,0,5000,false
+rattler_ii,Asson,Recyclable,Rare,2,2000,false
+bicycle_pump,Recyclable,Rare,3,2000,false
+shotgun_chokault Rifle,Common,6,3000,True
+canto_iv,SMG,Legendary,6.5,17000,false
 ferro_iii,Battle Rifle,Common,8,2000,True
-pulse_mine_blueprint,Blueprint,Common,0,5000,
-padded_stock,Modification,Epic,0.5,5000,
-portable_tv,Recyclable,Rare,3,2000,
-blue_light_stick,Quick Use,Common,0.75,150,
-broken_flashlight,Recyclable,Rare,2,1000,
-stable_stock_iii,Modification,Rare,0.75,5000,
+pulse_mine_blueprint,Blueprint,Common,0,5000,false
+padded_stock,Modification,Epic,0.5,5000,false
+portable_tv,Recyclable,Rare,3,2000,false
+blue_light_stick,Quick Use,Common,0.75,150,false
+broken_flashlight,Recyclable,Rare,2,1000,false
+stable_stock_iii,Modification,Rare,0.75,5000,false
 venator_i,Pistol,Rare,5,7000,True
-yellow_light_stick_blueprint,Blueprint,Common,0,5000,
+yellow_light_stick_blueprint,Blueprint,Common,0,5000,false
 burletta_iv,Pistol,Uncommon,4,10000,True
-motor,Recyclable,Rare,3,2000,
-alien_duck,Trinket,Uncommon,0.3,1000,
-buried_city_jkv_employee_access_card,Key,Uncommon,0.25,100,
-power_rod,Refined Material,Epic,2,5000,
+motor,Recyclable,Rare,3,2000,false
+alien_duck,Trinket,Uncommon,0.3,1000,false
+buried_city_jkv_employee_access_card,Key,Uncommon,0.25,100,false
+power_rod,Refined Material,Epic,2,5000,false
 stitcher_i,SMG,Common,5,800,True
-doodly_duck,Trinket,Rare,0.3,3000,
-blue_gate_confiscation_room_key,Key,Epic,0.25,100,
+doodly_duck,Trinket,Rare,0.3,3000,false
+blue_gate_confiscation_room_key,Key,Epic,0.25,100,false
 hairpin_ii,Pistol,Common,3,1000,True
-arc_synthetic_resin,Recyclable,Rare,1,1000,
+arc_synthetic_resin,Recyclable,Rare,1,1000,false
 il_toro_iii,Shotgun,Uncommon,8,10000,True
-shotgun_ammo,Ammunition,Common,0.085,20,
-red_light_stick_blueprint,Blueprint,Common,0,5000,
-arc_performance_steel,Recyclable,Rare,1,1000,
-remote_raider_flare,Quick Use,Common,0.2,270,
-light_gun_parts,Topside Material,Rare,0.3,700,
-rusted_gear,Recyclable,Rare,3,2000,
-esr_analyzer,Trinket,Common,0.25,,
+shotgun_ammo,Ammunition,Common,0.085,20,false
+red_light_stick_blueprint,Blueprint,Common,0,5000,false
+arc_performance_steel,Recyclable,Rare,1,1000,false
+remote_raider_flare,Quick Use,Common,0.2,270,false
+light_gun_parts,Topside Material,Rare,0.3,700,false
+rusted_gear,Recyclable,Rare,3,2000,false
+esr_analyzer,Trinket,Common,0.25,,false
 osprey_iv,Sniper Rifle,Rare,7,17000,True
-bettina_blueprint,Blueprint,Common,0,5000,
-extended_shotgun_mag_iii_blueprint,Blueprint,Common,0,5000,
-vase,Trinket,Rare,0.3,3000,
-dam_testing_annex_key,Key,Rare,0.25,100,
-extended_light_mag_ii,Modification,Uncommon,0.5,2000,
-red_coral_jewelry,Trinket,Rare,0.3,5000,
-radio_relay,Recyclable,Rare,1.5,3000,
+bettina_blueprint,Blueprint,Common,0,5000,false
+extended_shotgun_mag_iii_blueprint,Blueprint,Common,0,5000,false
+vase,Trinket,Rare,0.3,3000,false
+dam_testing_annex_key,Key,Rare,0.25,100,false
+extended_light_mag_ii,Modification,Uncommon,0.5,2000,false
+red_coral_jewelry,Trinket,Rare,0.3,5000,false
+radio_relay,Recyclable,Rare,1.5,3000,false
 il_toro_i,Shotgun,Uncommon,8,5000,True
-lightweight_stock_blueprint,Blueprint,Common,0,5000,
-painted_box,Trinket,Uncommon,0.3,2000,
+lightweight_stock_blueprint,Blueprint,Common,0,5000,false
+painted_box,Trinket,Uncommon,0.3,2000,false
 venator_iii,Pistol,Rare,5,13000,True
-dam_control_tower_key,Key,Epic,0.25,100,
-geiger_counter,Recyclable,Epic,1.5,3500,
-smoke_grenade,Quick Use,Rare,0.2,1000,
-flashy_duck,Trinket,Rare,0.3,3000,
-muzzle_brake_ii,Modification,Uncommon,0.5,2000,
-torn_blanket,Recyclable,Rare,2,640,
-angled_grip_ii_blueprint,Blueprint,Common,0,5000,
-surge_coil,Quick Use,Uncommon,0,2100,
-mushroom,Nature,Uncommon,0.2,1000,
-pilgrims_peak_security_code,Key,Common,0.25,100,
-shield_recharger,Quick Use,Uncommon,0.15,520,
-music_album,Trinket,Rare,0.3,3000,
+dam_control_tower_key,Key,Epic,0.25,100,false
+geiger_counter,Recyclable,Epic,1.5,3500,false
+smoke_grenade,Quick Use,Rare,0.2,1000,false
+flashy_duck,Trinket,Rare,0.3,3000,false
+muzzle_brake_ii,Modification,Uncommon,0.5,2000,false
+torn_blanket,Recyclable,Rare,2,640,false
+angled_grip_ii_blueprint,Blueprint,Common,0,5000,false
+surge_coil,Quick Use,Uncommon,0,2100,false
+mushroom,Nature,Uncommon,0.2,1000,false
+pilgrims_peak_security_code,Key,Common,0.25,100,false
+shield_recharger,Quick Use,Uncommon,0.15,520,false
+music_album,Trinket,Rare,0.3,3000,false
 hairpin_iii,Pistol,Common,3,2000,True
-ice_cream_scooper,Recyclable,Uncommon,0.8,640,
-looting_mk1,Augment,Uncommon,1,640,
-lil_smoke_grenade,Quick Use,Common,0.15,300,
-light_impact_grenade,Quick Use,Common,0.1,270,
-extended_light_mag_iii,Modification,Rare,0.75,5000,
-vita_shot,Quick Use,Rare,0.4,2200,
-binoculars,Quick Use,Common,0.5,640,
+ice_cream_scooper,Recyclable,Uncommon,0.8,640,false
+looting_mk1,Augment,Uncommon,1,640,false
+lil_smoke_grenade,Quick Use,Common,0.15,300,false
+light_impact_grenade,Quick Use,Common,0.1,270,false
+extended_light_mag_iii,Modification,Rare,0.75,5000,false
+vita_shot,Quick Use,Rare,0.4,2200,false
+binoculars,Quick Use,Common,0.5,640,false
 anvil_iii,Hand Cannon,Uncommon,5,10000,True
-fireball_burner,Recyclable,Uncommon,0.5,640,
-vulcano_blueprint,Blueprint,Common,0,5000,
-barricade_kit,Quick Use,Uncommon,0.4,640,
-firecracker,Quick Use,Common,0.05,270,
-ruined_augment,Recyclable,Common,0.5,270,
-tactical_mk3_revival,Augment,Epic,3,5000,
-fireworks_box_blueprint,Blueprint,Common,0,5000,
+fireball_burner,Recyclable,Uncommon,0.5,640,false
+vulcano_blueprint,Blueprint,Common,0,5000,false
+barricade_kit,Quick Use,Uncommon,0.4,640,false
+firecracker,Quick Use,Common,0.05,270,false
+ruined_augment,Recyclable,Common,0.5,270,false
+tactical_mk3_revival,Augment,Epic,3,5000,false
+fireworks_box_blueprint,Blueprint,Common,0,5000,false
 il_toro_ii,Shotgun,Uncommon,8,7000,True
-steel_spring,Topside Material,Uncommon,0.25,300,
-heavy_fuze_grenade,Quick Use,Rare,0.2,1600,
-tactical_mk3_defensive_blueprint,Blueprint,Common,0,5000,
-tagging_grenade,Quick Use,Rare,0.4,1000,
+steel_spring,Topside Material,Uncommon,0.25,300,false
+heavy_fuze_grenade,Quick Use,Rare,0.2,1600,false
+tactical_mk3_defensive_blueprint,Blueprint,Common,0,5000,false
+tagging_grenade,Quick Use,Rare,0.4,1000,false
 aphelion,Special,Legendary,14,27500,True
-lure_grenade_trap,Quick Use,Uncommon,0.25,1000,
+lure_grenade_trap,Quick Use,Uncommon,0.25,1000,false
 bettina_ii,Assault Rifle,Epic,11,11000,True
 burletta_ii,Pistol,Uncommon,4,5000,True
-pulse_mine,Quick Use,Uncommon,0.25,470,
-shredder_gyro,Recyclable,Rare,1,2000,
-speaker_component,Topside Material,Rare,0.3,500,
-vertical_grip_iii,Modification,Rare,0.75,5000,
+pulse_mine,Quick Use,Uncommon,0.25,470,false
+shredder_gyro,Recyclable,Rare,1,2000,false
+speaker_component,Topside Material,Rare,0.3,500,false
+vertical_grip_iii,Modification,Rare,0.75,5000,false
 ferro_iv,Battle Rifle,Common,8,2900,True
 bobcat_i,SMG,Epic,7,13000,True
-poster_of_natural_wonders,Trinket,Uncommon,0.3,2000,
-tropical_duck,Trinket,Uncommon,0.3,1000,
-silver_teaspoon_set,Trinket,Rare,0.3,3000,
-old_world_books,Trinket,Common,0.25,0,
+poster_of_natural_wonders,Trinket,Uncommon,0.3,2000,false
+tropical_duck,Trinket,Uncommon,0.3,1000,false
+silver_teaspoon_set,Trinket,Rare,0.3,3000,false
+old_world_books,Trinket,Common,0.25,0,false
 arpeggio_iv,Assault Rifle,Uncommon,7,15000,True
-cracked_bioscanner,Recyclable,Rare,2,1000,
-first_wave_rations,Trinket,Common,0.25,,
+cracked_bioscanner,Recyclable,Rare,2,1000,false
+first_wave_rations,Trinket,Common,0.25,,false
 hullcracker_iii,Special,Epic,7,17000,True
 hairpin_iv,Pistol,Common,3,2900,True
-barricade_kit_blueprint,Blueprint,Common,0,5000,
-anvil_splitter,Modification,Legendary,0.5,7000,
-shotgun_silencer,Modification,Epic,0.5,5000,
-degraded_arc_rubber,Recyclable,Uncommon,1,640,
-deadline_blueprint,Blueprint,Common,0,5000,
-medium_ammo,Ammunition,Common,0.025,6,
-blaze_grenade_blueprint,Blueprint,Common,0,5000,
-muzzle_brake_iii,Modification,Rare,0.75,5000,
-dried_out_arc_resin,Recyclable,Uncommon,1,640,
-arc_coolant,Recyclable,Rare,1,1000,
-snap_blast_grenade,Quick Use,Uncommon,0.2,800,
-thermostat,Recyclable,Rare,2,1000,
-olives,Nature,Uncommon,0.2,640,
-heavy_shield,Shield,Epic,9,5500,
-project_heartwood_blueprints,Trinket,Common,0,0,
-magnetron,Recyclable,Epic,1.5,6000,
-damaged_heat_sink,Recyclable,Rare,2,1000,
-ruined_baton,Recyclable,Uncommon,0.8,640,
-rotary_encoder,Recyclable,Rare,1.5,3000,
-rocketeer_driver,Recyclable,Epic,1,3000,
-shotgun_choke_iii_blueprint,Blueprint,Common,0,5000,
-canto_iii,SMG,Legendary,6.5,13000,
-impure_arc_coolant,Recyclable,Uncommon,0.33,640,
+barricade_kit_blueprint,Blueprint,Common,0,5000,false
+anvil_splitter,Modification,Legendary,0.5,7000,false
+shotgun_silencer,Modification,Epic,0.5,5000,false
+degraded_arc_rubber,Recyclable,Uncommon,1,640,false
+deadline_blueprint,Blueprint,Common,0,5000,false
+medium_ammo,Ammunition,Common,0.025,6,false
+blaze_grenade_blueprint,Blueprint,Common,0,5000,false
+muzzle_brake_iii,Modification,Rare,0.75,5000,false
+dried_out_arc_resin,Recyclable,Uncommon,1,640,false
+arc_coolant,Recyclable,Rare,1,1000,false
+snap_blast_grenade,Quick Use,Uncommon,0.2,800,false
+thermostat,Recyclable,Rare,2,1000,false
+olives,Nature,Uncommon,0.2,640,false
+heavy_shield,Shield,Epic,9,5500,false
+project_heartwood_blueprints,Trinket,Common,0,0,false
+magnetron,Recyclable,Epic,1.5,6000,false
+damaged_heat_sink,Recyclable,Rare,2,1000,false
+ruined_baton,Recyclable,Uncommon,0.8,640,false
+rotary_encoder,Recyclable,Rare,1.5,3000,false
+rocketeer_driver,Recyclable,Epic,1,3000,false
+shotgun_choke_iii_blueprint,Blueprint,Common,0,5000,false
+canto_iii,SMG,Legendary,6.5,13000,false
+impure_arc_coolant,Recyclable,Uncommon,0.33,640,false
 torrente_iii,LMG,Rare,12,13000,True
-tagging_grenade_blueprint,Blueprint,Common,0,5000,
+tagging_grenade_blueprint,Blueprint,Common,0,5000,false
 kettle_ii,Assault Rifle,Common,7,2000,True
-tick_pod,Recyclable,Uncommon,0.5,640,
-library_book,Trinket,Common,0.5,0,
-combat_mk3_flanking,Augment,Epic,5,5000,
+tick_pod,Recyclable,Uncommon,0.5,640,false
+library_book,Trinket,Common,0.5,0,false
+combat_mk3_flanking,Augment,Epic,5,5000,false
 renegade_ii,Battle Rifle,Rare,10,10000,True
-venator_blueprint,Blueprint,Common,,5000,
-vertical_grip_i,Modification,Common,0.25,640,
-damaged_wasp_driver,Recyclable,Common,0.25,270,
+venator_blueprint,Blueprint,Common,,5000,false
+vertical_grip_i,Modification,Common,0.25,640,false
+damaged_wasp_driver,Recyclable,Common,0.25,270,false
 vulcano_iii,Shotgun,Epic,8,17000,True
-agave,Nature,Uncommon,0.2,1000,
-remote_raider_flare_blueprint,Blueprint,Common,0,5000,
-shaker,Quick Use,Uncommon,0.2,1000,
+agave,Nature,Uncommon,0.2,1000,false
+remote_raider_flare_blueprint,Blueprint,Common,0,5000,false
+shaker,Quick Use,Uncommon,0.2,1000,false
 anvil_iv,Hand Cannon,Uncommon,5,13000,True
-tattered_arc_lining,Recyclable,Uncommon,1,640,
-ion_sputter,Recyclable,Epic,1.5,6000,
-electrical_components,Refined Material,Uncommon,0.5,640,
-trailblazer_blueprint,Blueprint,Common,0,5000,
-looting_mk3_survivor,Augment,Epic,4,5000,
-advanced_mechanical_components,Refined Material,Rare,1,1750,
-door_blocker,Quick Use,Common,0.2,270,
-turbo_pump,Recyclable,Rare,3,2000,
+tattered_arc_lining,Recyclable,Uncommon,1,640,false
+ion_sputter,Recyclable,Epic,1.5,6000,false
+electrical_components,Refined Material,Uncommon,0.5,640,false
+trailblazer_blueprint,Blueprint,Common,0,5000,false
+looting_mk3_survivor,Augment,Epic,4,5000,false
+advanced_mechanical_components,Refined Material,Rare,1,1750,false
+door_blocker,Quick Use,Common,0.2,270,false
+turbo_pump,Recyclable,Rare,3,2000,false
 burletta_i,Pistol,Uncommon,4,2900,True
-arc_circuitry,Topside Material,Rare,0.3,1000,
-arc_powercell,Topside Material,Common,0.5,270,
-arc_thermo_lining,Recyclable,Rare,1,1000,
-padded_stock_blueprint,Blueprint,Common,0,5000,
-bombardier_cell,Recyclable,Epic,1,3000,
-angled_grip_iii_blueprint,Blueprint,Common,0,5000,
+arc_circuitry,Topside Material,Rare,0.3,1000,false
+arc_powercell,Topside Material,Common,0.5,270,false
+arc_thermo_lining,Recyclable,Rare,1,1000,false
+padded_stock_blueprint,Blueprint,Common,0,5000,false
+bombardier_con,Recyclable,Rare,2,2000,false
+bicycle_pump,Recyclable,Rare,3,2000,false
+shotgun_chokell,Recyclable,Epic,1,3000,false
+angled_grip_iii_blueprint,Blueprint,Common,0,5000,false
 osprey_iii,Sniper Rifle,Rare,7,13000,True
-extended_light_mag_ii_blueprint,Blueprint,Common,0,5000,
+extended_light_mag_ii_blueprint,Blueprint,Common,0,5000,false
 torrente_i,LMG,Rare,12,7000,True
 venator_iv,Pistol,Rare,5,17000,True
-silencer_ii,Modification,Rare,0.5,5000,
-snitch_scanner,Recyclable,Uncommon,0.75,1000,
-smoke_grenade_trap,Quick Use,Rare,0.3,640,
-spring_cushion,Recyclable,Rare,2,2000,
-bicycle_pump,Recyclable,Rare,3,2000,
-shotgun_choke_ii_blueprint,Blueprint,Common,0,5000,
-moisture_meter,Trinket,Common,0.25,,
-tactical_mk3_revival_blueprint,Blueprint,Common,0,5000,
-horizontal_grip,Modification,Epic,0.5,7000,
-flow_controller,Recyclable,Rare,1.5,3000,
+silencer_ii,Modification,Rare,0.5,5000,false
+snitch_scanner,Recyclable,Uncommon,0.75,1000,false
+smoke_grenade_trap,Quick Use,Rare,0.3,640,false
+spring_cushion,Recyclable,Rare,2,2000,false
+bicycle_pump,Recyclable,Rare,3,2000,false
+shotgun_choke_ii_blueprint,Blueprint,Common,0,5000,false
+moisture_meter,Trinket,Common,0.25,,false
+tactical_mk3_revival_blueprint,Blueprint,Common,0,5000,false
+horizontal_grip,Modification,Epic,0.5,7000,false
+flow_controller,Recyclable,Rare,1.5,3000,false
 hullcracker_iv,Special,Epic,7,22000,True
-coolant,Recyclable,Rare,2,1000,
-extended_shotgun_mag_iii,Modification,Rare,0.75,5000,
-medium_shield,Shield,Rare,7,2000,
+coolant,Recyclable,Rare,2,1000,false
+extended_shotgun_mag_iii,Modification,Rare,0.75,5000,false
+medium_shield,Shield,Rare,7,2000,false
 renegade_iii,Battle Rifle,Rare,10,13000,True
-water_filter,Recyclable,Rare,2,1000,
-canto_ii,SMG,Legendary,6.5,10000,
-blue_gate_village_key,Key,Uncommon,0.25,100,
+water_filter,Recyclable,Rare,2,1000,false
+canto_ii,SMG,Legendary,6.5,10000,false
+blue_gate_village_key,Key,Uncommon,0.25,100,false
 tempest_ii,Assault Rifle,Epic,11,17000,True
-compensator_ii_blueprint,Blueprint,Common,0,5000,
-canto_blueprint,Blueprint,Common,0,5000,
-stack_of_movie_tapes,Trinket,Common,0.5,0,
+compensator_ii_blueprint,Blueprint,Common,0,5000,false
+canto_blueprint,Blueprint,Common,0,5000,false
+stack_of_movie_tapes,Trinket,Common,0.5,0,false
 osprey_i,Sniper Rifle,Rare,7,7000,True
-explosive_compound,Refined Material,Rare,0.3,1000,
-hullcracker_blueprint,Blueprint,Common,0,5000,
-processor,Topside Material,Rare,0.2,500,
-simple_gun_parts,Topside Material,Uncommon,0.3,330,
-stella_montis_assembly_admin_key,Key,Uncommon,0.25,100,
-shotgun_choke_i,Modification,Common,0.25,640,
-rusted_bolts,Recyclable,Uncommon,0.8,640,
-microscope,Recyclable,Rare,1.5,3000,
-fine_wristwatch,Trinket,Rare,0.2,3000,
-frying_pan,Recyclable,Rare,2,640,
-complex_gun_parts,Topside Material,Epic,1,3000,
+explosive_compound,Refined Material,Rare,0.3,1000,false
+hullcracker_blueprint,Blueprint,Common,0,5000,false
+processor,Topside Material,Rare,0.2,500,false
+simple_gun_parts,Topside Material,Uncommon,0.3,330,false
+stella_montis_assembly_admin_key,Key,Uncommon,0.25,100,false
+shotgun_cho,
+shrapnel_grenade,Quick Use,Uncommon,0.15,ke_i,Modification,Common,0.25,640,false
+rusted_bolts,Recyclable,Uncommon,0.8,640,false
+microscope,Recyclable,Rare,1.5,3000,false
+fine_wristwatch,Trinket,Rare,0.2,3000,false
+frying_pan,Recyclable,Rare,2,640,false
+complex_gun_parts,Topside Material,Epic,1,3000,false
 bobcat_ii,SMG,Epic,7,17000,True
-medium_gun_parts,Topside Material,Rare,0.4,700,
-spectrum_analyzer,Recyclable,Epic,1.5,3500,
-snap_hook_blueprint,Blueprint,Common,0,5000,
-sensors,Topside Material,Rare,0.3,500,
+medium_gun_parts,Topside Material,Rare,0.4,700,false
+spectrum_analyzer,Recyclable,Epic,1.5,3500,false
+snap_hook_blueprint,Blueprint,Common,0,5000,false
+sensors,Topside Material,Rare,0.3,500,false
 hullcracker_i,Special,Epic,7,10000,True
 il_toro_iv,Shotgun,Uncommon,8,13000,True
 torrente_iv,LMG,Rare,12,17000,True
-arc_flex_rubber,Recyclable,Rare,1,1000,
-gas_grenade,Quick Use,Common,0.2,270,
-industrial_charger,Recyclable,Rare,2,1000,
-rosary,Trinket,Rare,0.3,2000,
-damaged_rocketeer_driver,Recyclable,Common,0.25,1000,
-burletta_blueprint,Blueprint,Common,,5000,
-extended_barrel,Modification,Epic,0.5,5000,
-combat_mk3_aggressive,Augment,Epic,5,5000,
+arc_flex_rubber,Recyclable,Rare,1,1000,false
+gas_grenade,Quick Use,Common,0.2,270,false
+industrial_charger,Recyclable,Rare,2,1000,false
+rosary,Trinket,Rare,0.3,2000,false
+damaged_rocketeer_driver,Recyclable,Common,0.25,1000,false
+burletta_blueprint,Blueprint,Common,,5000,false
+extended_barrel,Modification,Epic,0.5,5000,false
+combat_mk3_aggressive,Augment,Epic,5,5000,false
 tempest_i,Assault Rifle,Epic,11,13000,True
-expired_pasta,Trinket,Common,0.1,1000,
-pop_trigger,Recyclable,Uncommon,0.5,640,
+expired_pasta,Trinket,Common,0.1,1000,false
+pop_trigger,Recyclable,Uncommon,0.5,640,false
 ferro_i,Battle Rifle,Common,8,475,True
-looting_mk3_survivor_blueprint,Blueprint,Common,0,5000,
-sentinel_firing_core,Recyclable,Rare,1,2000,
-camera_lens,Recyclable,Uncommon,0.8,640,
-polluted_air_filter,Recyclable,Rare,0.8,1000,
+looting_mk3_survivor_blueprint,Blueprint,Common,0,5000,false
+sentinel_firing_core,Recyclable,Rare,1,2000,false
+camera_lens,Recyclable,Uncommon,0.8,640,false
+polluted_air_filter,Recyclable,Rare,0.8,1000,false
 kettle_i,Assault Rifle,Common,7,840,True
-looting_mk3_safekeeper,Augment,Epic,5,5000,
-leaper_pulse_unit,Recyclable,Epic,1,3000,
-broken_handheld_radio,Recyclable,Rare,3,2000,
-radio,Recyclable,Rare,2,1000,
-defibrillator,Quick Use,Rare,0.75,1000,
-extended_shotgun_mag_ii,Modification,Uncommon,0.5,2000,
-mini_centrifuge,Recyclable,Rare,1.5,3000,
-chemicals,Basic Material,Common,0.15,50,
+looting_mk3_safekeeper,Augment,Epic,5,5000,false
+leaper_pulse_unit,Recyclable,Epic,1,3000,false
+broken_handheld_radio,Recyclable,Rare,3,2000,false
+radio,Recyclable,Rare,2,1000,false
+defibrillato,
+shrapnel_grenade,Quick Use,Uncommon,0.15,r,Quick Use,Rare,0.75,1000,false
+extended_shotgun_mag_ii,Modification,Uncommon,0.5,2000,false
+mini_centrifuge,Recyclable,Rare,1.5,3000,false
+chemicals,Basic Material,Common,0.15,50,false
 vulcano_i,Shotgun,Epic,8,10000,True
-spaceport_trench_tower_key,Key,Uncommon,0.25,100,
-silencer_i_blueprint,Blueprint,Common,0,5000,
-firefly_burner,Recyclable,Rare,0.75,1000,
-comet_igniter,Recyclable,Rare,1,1000,
-free_loadout_augment,Augment,Common,1,100,
-stable_stock_i,Modification,Common,0.25,640,
-flushing_terminal_key,Trinket,Common,0.25,0,
-buried_city_hospital_key,Key,Rare,0.25,100,
-raiders_refuge_security_code,Key,Common,0.25,100,
-red_light_stick,Quick Use,Common,0.15,150,
-power_bank,Recyclable,Rare,2,1000,
-roots,Nature,Uncommon,0.2,640,
-fossilized_lightning,Topside Material,Epic,0.25,4000,
-dam_staff_room_key,Key,Uncommon,0.25,100,
-cat_bed,Trinket,Uncommon,0.5,1000,
-candle_holder,Recyclable,Uncommon,2,640,
-rope,Topside Material,Rare,0.3,500,
-ruined_parachute,Recyclable,Uncommon,0.8,640,
-rubber_duck,Trinket,Common,0.3,1000,
-gas_mine,Quick Use,Common,0.25,270,
-wasp_driver,Recyclable,Rare,0.6,640,
-angled_grip_ii,Modification,Uncommon,0.5,2000,
-combat_mk3_flanking_blueprint,Blueprint,Common,0,5000,
-ruined_tactical_vest,Recyclable,Uncommon,0.8,640,
-number_plate,Recyclable,Uncommon,0.8,270,
-showstopper_blueprint,Blueprint,Common,0,5000,
-shotgun_choke_iii,Modification,Rare,0.75,5000,
-jolt_mine,Quick Use,Rare,0.2,850,
-extended_shotgun_mag_ii_blueprint,Blueprint,Common,0,5000,
+spaceport_trench_tower_key,Key,Uncommon,0.25,100,false
+silencer_i_blueprint,Blueprint,Common,0,5000,false
+firefly_burner,Recyclable,Rare,0.75,1000,false
+comet_igniter,Recyclable,Rare,1,1000,false
+free_loadout_augment,Augment,Common,1,100,false
+stable_stock_i,Modification,Common,0.25,640,false
+flushing_terminal_key,Trinket,Common,0.25,0,false
+buried_city_hospital_key,Key,Rare,0.25,100,false
+raiders_refuge_security_code,Key,Common,0.25,100,false
+red_light_stick,Quick Use,Common,0.15,150,false
+power_bank,Recyclable,Rare,2,1000,false
+roots,Nature,Uncommon,0.2,640,false
+fossilized_lightning,Topside Material,Epic,0.25,4000,false
+dam_staff_room_key,Key,Uncommon,0.25,100,false
+cat_bed,Trinket,Uncommon,0.5,1000,false
+candle_holder,Recyclable,Uncommon,2,640,false
+rope,Topside Material,Rare,0.3,500,false
+ruined_parachute,Recyclable,Uncommon,0.8,640,false
+rubber_duck,Trinket,Common,0.3,1000,false
+gas_mine,Quick Use,Common,0.25,270,false
+wasp_driver,Recyclable,Rare,0.6,640,false
+angled_grip_,
+shrapnel_grenade,Quick Use,Uncommon,0.15,ii,Modification,Uncommon,0.5,2000,false
+combat_mk3_flanking_blueprint,Blueprint,Common,0,5000,false
+ruined_tactical_vest,Recyclable,Uncommon,0.8,640,false
+number_plate,Recyclable,Uncommon,0.8,270,false
+showstopper_blueprint,Blueprint,Common,0,5000,false
+shotgun_choke_iii,Modification,Rare,0.75,5000,false
+jolt_mine,Quick Use,Rare,0.2,850,false
+extended_shotgun_mag_ii_blueprint,Blueprint,Common,0,5000,false
 kettle_iv,Assault Rifle,Common,7,5000,True
-arc_alloy,Topside Material,Uncommon,0.25,200,
+arc_alloy,Topside Material,Uncommon,0.25,200,false
 equalizer,LMG,Legendary,14,27500,True
-noisemaker,Quick Use,Common,0.3,640,
-trigger_nade_blueprint,Blueprint,Common,0,5000,
-metal_parts,Basic Material,Common,0.1,75,
-blaze_grenade,Quick Use,Rare,0.2,1600,
-bloated_tuna_can,Trinket,Common,0.2,1000,
+noisemaker,Quick Use,Common,0.3,640,false
+trigger_nade_blueprint,Blueprint,Common,0,5000,false
+metal_parts,Basic Material,Common,0.1,75,false
+blaze_grenade,Quick Use,Rare,0.2,1600,false
+bloated_tuna_can,Trinket,Common,0.2,1000,false
 venator_ii,Pistol,Rare,5,10000,True
-magnetic_accelerator,Refined Material,Epic,1,5500,
-prickly_pear,Nature,Common,0.2,640,
-recorder,Quick Use,Uncommon,0.2,1000,
-water_pump,Recyclable,Rare,2,1000,
-reinforced_reception_security_code,Key,Common,0.25,100,
-extended_light_mag_iii_blueprint,Blueprint,Common,0,5000,
-snowball,Quick Use,Common,0.4,10,
-blaze_grenade_trap,Quick Use,Rare,0.3,1000,
-mechanical_components,Refined Material,Uncommon,0.5,640,
-agave_juice,Quick Use,Common,0.2,1800,
-spaceport_container_storage_key,Key,Rare,0.25,100,
+magnetic_accelerator,Refined Material,Epic,1,5500,false
+prickly_pear,Nature,Common,0.2,640,false
+recorder,Quick Use,Uncommon,0.2,1000,false
+water_pump,Recyclable,Rare,2,1000,false
+reinforced_reception_security_code,Key,Common,0.25,100,false
+extended_light_mag_iii_blueprint,Blueprint,Common,0,5000,false
+snowball,Quick Use,Common,0.4,10,false
+blaze_grenade_trap,Quick Use,Rare,0.3,1000,false
+mechanical_components,Refined Material,Uncommon,0.5,640,false
+agave_juice,Quick Use,Common,0.2,1800,false
+spaceport_container_storage_key,Key,Rare,0.25,100,false
 rattler_iii,Assault Rifle,Common,6,5000,True
-vertical_grip_iii_blueprint,Blueprint,Common,0,5000,
-mod_components,Refined Material,Rare,1,1750,
-signal_amplifier,Recyclable,Rare,1.5,3000,
-metal_brackets,Recyclable,Uncommon,0.8,640,
-stella_montis_medical_storage_key,Key,Uncommon,0.25,100,
+vertical_grip_iii_blueprint,Blueprint,Common,0,5000,false
+mod_components,Refined Material,Rare,1,1750,false
+signal_amplifier,Recyclable,Rare,1.5,3000,false
+metal_brackets,Recyclable,Uncommon,0.8,640,false
+stella_montis_medical_storage_key,Key,Uncommon,0.25,100,false
 rattler_iv,Assault Rifle,Common,6,7000,True
-wolfpack,Quick Use,Epic,1,6000,
-heavy_gun_parts_blueprint,Blueprint,Common,0,5000,
-rusted_shut_medical_kit,Recyclable,Rare,3,2000,
-smoke_grenade_blueprint,Blueprint,Common,0,5000,
+wolfpack,Quick Use,Epic,1,6000,false
+heavy_gun_parts_blueprint,Blueprint,Common,0,5000,false
+rusted_shut_medical_kit,Recyclable,Rare,3,2000,false
+smoke_grenade_blueprint,Blueprint,Common,0,5000,false
 dolabra,Shotgun,Legendary,8,27500,True
-equalizer_blueprint,Blueprint,Common,0,5000,
-broken_taser,Recyclable,Rare,2,1000,
-frequency_modulation_box,Recyclable,Rare,1.5,3000,
-angled_grip_iii,Modification,Rare,0.75,5000,
-apricot,Nature,Uncommon,0.2,640,
-damaged_arc_powercell,Recyclable,Common,0.25,293,
-damaged_arc_motion_core,Recyclable,Uncommon,0.25,640,
-canto_i,SMG,Legendary,6.5,7000,
+equalizer_blueprint,Blueprint,Common,0,5000,false
+broken_taser,Recyclable,Rare,2,1000,false
+frequency_modulation_box,Recyclable,Rare,1.5,3000,false
+angled_grip_iii,Modification,Rare,0.75,5000,false
+apricot,Nature,Uncommon,0.2,640,false
+damaged_arc_powercell,Recyclable,Common,0.25,293,false
+damaged_arc_motion_core,Recyclable,Uncommon,0.25,640,false
+canto_i,SMG,Legendary,6.5,7000,false
 tempest_iv,Assault Rifle,Epic,11,27000,True
 osprey_ii,Sniper Rifle,Rare,7,10000,True
 anvil_ii,Hand Cannon,Uncommon,5,7000,True
-light_gun_parts_blueprint,Blueprint,Common,0,5000,
+light_gun_parts_blueprint,Blueprint,Common,0,5000,false
 stitcher_ii,SMG,Common,5,2000,True
-gentle_duck,Trinket,Uncommon,0.3,1000,
-major_aivas_mementos,Trinket,Common,0.5,0,
-seeker_grenade,Quick Use,Uncommon,0.2,640,
-wolfpack_blueprint,Blueprint,Common,0,5000,
-jolt_mine_blueprint,Blueprint,Common,0,5000,
-nutrient_meter,Trinket,Common,0.25,,
-ripped_safety_vest,Recyclable,Uncommon,0.8,1000,
-heavy_ammo,Ammunition,Common,0.05,12,
-looting_mk3_safekeeper_blueprint,Blueprint,Common,0,5000,
-assorted_seeds,Nature,Common,0.05,100,
-industrial_magnet,Recyclable,Rare,2,1000,
-combat_mk3_aggressive_blueprint,Blueprint,Common,0,5000,
-expired_respirator,Recyclable,Rare,2,640,
-power_cable,Recyclable,Rare,2,1000,
-buried_city_town_hall_key,Key,Epic,0.25,100,
-burned_arc_circuitry,Recyclable,Uncommon,1,640,
-garlic_press,Recyclable,Uncommon,0.8,1000,
-heavy_gun_parts,Topside Material,Rare,0.5,700,
-shotgun_silencer_blueprint,Blueprint,Common,0,5000,
-bandage,Quick Use,Common,0.1,250,
-light_bulb,Trinket,Uncommon,0.2,2000,
-stella_montis_archives_key,Key,Epic,0.25,100,
-buried_city_residential_master_key,Key,Uncommon,0.25,100,
+gentle_duck,Trinket,Uncommon,0.3,1000,false
+major_aivas_mementos,Trinket,Common,0.5,0,false
+seeker_grenade,Quick Use,Uncommon,0.2,640,false
+wolfpack_blueprint,Blueprint,Common,0,5000,false
+jolt_mine_blueprint,Blueprint,Common,0,5000,false
+nutrient_meter,Trinket,Common,0.25,,false
+ripped_safety_vest,Recyclable,Uncommon,0.8,1000,false
+heavy_ammo,Ammunition,Common,0.05,12,false
+looting_mk3_safekeeper_blueprint,Blueprint,Common,0,5000,false
+assorted_seeds,Nature,Common,0.05,100,false
+industrial_magnet,Recyclable,Rare,2,1000,false
+combat_mk3_aggressive_blueprint,Blueprint,Common,0,5000,false
+expired_respirator,Recyclable,Rare,2,640,false
+power_cable,Recyclable,Rare,2,1000,false
+buried_city_town_hall_key,Key,Epic,0.25,100,false
+burned_arc_circuitry,Recyclable,Uncommon,1,640,false
+garlic_press,Recyclable,Uncommon,0.8,1000,false
+heavy_gun_parts,Topside Material,Rare,0.5,700,false
+shotgun_silencer_blueprint,Blueprint,Common,0,5000,false
+bandage,Quick Use,Common,0.1,250,false
+light_bulb,Trinket,Uncommon,0.2,2000,false
+stella_montis_archives_key,Key,Epic,0.25,100,false
+buried_city_residential_master_key,Key,Uncommon,0.25,100,false
 jupiter,Sniper Rifle,Legendary,9,27500,True
-energy_clip,Ammunition,Rare,0.3,200,
-cooling_fan,Recyclable,Rare,3,2000,
-pottery,Trinket,Uncommon,0.3,2000,
+energy_clip,Ammunition,Rare,0.3,200,false
+cooling_fan,Recyclable,Rare,3,2000,false
+pottery,Trinket,Uncommon,0.3,2000,false
 bettina_i,Assault Rifle,Epic,11,8000,True
-cooling_coil,Recyclable,Rare,2,1000,
-fabric,Basic Material,Common,0.1,50,
-green_light_stick_blueprint,Blueprint,Common,0,5000,
-industrial_battery,Recyclable,Rare,2,1000,
-aphelion_blueprint,Blueprint,Common,0,5000,
-fertilizer,Nature,Uncommon,0.4,1000,
-photoelectric_cloak,Quick Use,Epic,1,5000,
-light_ammo,Ammunition,Common,0.017,4,
+cooling_coil,Recyclable,Rare,2,1000,false
+fabric,Basic Material,Common,0.1,50,false
+green_light_stick_blueprint,Blueprint,Common,0,5000,false
+industrial_battery,Recyclable,Rare,2,1000,false
+aphelion_blueprint,Blueprint,Common,0,5000,false
+fertilizer,Nature,Uncommon,0.4,1000,false
+photoelectric_cloak,Quick Use,Epic,1,5000,false
+light_ammo,Ammunition,Common,0.017,4,false
 hullcracker_ii,Special,Epic,7,13000,True
-silencer_ii_blueprint,Blueprint,Common,0,5000,
-stella_montis_security_checkpoint_key,Key,Rare,0.25,100,
-lidar_scanner,Trinket,Common,0.25,,
-canister,Topside Material,Uncommon,0.25,300,
-advanced_electrical_components,Refined Material,Rare,1,1750,
+silencer_ii_blueprint,Blueprint,Common,0,5000,false
+stella_montis_security_checkpoint_key,Key,Rare,0.25,100,false
+lidar_scanner,Trinket,Common,0.25,,false
+canister,Topside Material,Uncommon,0.25,300,false
+advanced_electrical_components,Refined Material,Rare,1,1750,false
 vulcano_ii,Shotgun,Epic,9.25,13000,True
-acoustic_guitar,Quick Use,Legendary,1,7000,
+acoustic_guitar,Quick Use,Legendary,1,7000,false
 stitcher_iv,SMG,Common,5,5000,True
-coffee_pot,Trinket,Common,0.3,1000,
-tactical_mk3_healing_blueprint,Blueprint,Common,0,5000,
-snap_hook,Quick Use,Legendary,5,14000,
+coffee_pot,Trinket,Common,0.3,1000,false
+tactical_mk3_healing_blueprint,Blueprint,Common,0,5000,false
+snap_hook,Quick Use,Legendary,5,14000,false
