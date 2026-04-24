@@ -1,4 +1,4 @@
-id,type,rarity,weightKg,value,isWeapon
+name,type,rarity,weightKg,value,isWeapon
 major_aivas_patch,Trinket,Common,0.25,,false
 muzzle_brake_i,Modification,Common,0.25,640,false
 blue_gate_communication_tower_key,Key,Rare,0.25,100,false

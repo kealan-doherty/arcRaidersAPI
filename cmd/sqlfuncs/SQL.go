@@ -44,12 +44,13 @@ func DisconnectDB(conn *pgx.Conn) error {
 func CreateTable(conn *pgx.Conn) error {
 	_, err := conn.Exec(context.Background(), `
 		CREATE TABLE IF NOT EXISTS items (
-			id TEXT PRIMARY KEY,
-			type TEXT,
-			rarity TEXT,
+			id SERIAL PRIMARY KEY,
+			name VARCHAR(255) NOT NULL UNIQUE,
+			type TEXT NOT NULL,
+			rarity TEXT NOT NULL,
 			weightkg NUMERIC(5,2),
 			value NUMERIC,
-			isweapon BOOLEAN
+			isweapon BOOLEAN NOT NULL
 		)
 	`)
 	if err != nil {
@@ -84,13 +85,17 @@ func AddItems(conn *pgx.Conn) error {
 	defer file.Close()
 
 	reader := csv.NewReader(file)
+	reader.FieldsPerRecord = -1
 	if _, err := reader.Read(); err != nil {
 		return fmt.Errorf("read csv header: %w", err)
 	}
 
 	rows := make([][]any, 0, 1024)
+	skippedRows := 0
+	lineNum := 1
 	for {
 		record, err := reader.Read()
+		lineNum++
 		if err == io.EOF {
 			break
 		}
@@ -99,22 +104,30 @@ func AddItems(conn *pgx.Conn) error {
 		}
 
 		if len(record) != 6 {
-			return fmt.Errorf("expected 6 columns, got %d", len(record))
+			log.Printf("AddItems: skipping line %d due to invalid column count (got=%d want=6): %v", lineNum, len(record), record)
+			skippedRows++
+			continue
 		}
 
 		weightKg, err := parseNullableFloat(record[3])
 		if err != nil {
-			return fmt.Errorf("invalid weightkg for item %q: %w", record[0], err)
+			log.Printf("AddItems: skipping line %d due to invalid weightkg for item %q: %v", lineNum, record[0], err)
+			skippedRows++
+			continue
 		}
 
 		value, err := parseNullableFloat(record[4])
 		if err != nil {
-			return fmt.Errorf("invalid value for item %q: %w", record[0], err)
+			log.Printf("AddItems: skipping line %d due to invalid value for item %q: %v", lineNum, record[0], err)
+			skippedRows++
+			continue
 		}
 
 		isWeapon, err := strconv.ParseBool(strings.TrimSpace(record[5]))
 		if err != nil {
-			return fmt.Errorf("invalid isWeapon for item %q: %w", record[0], err)
+			log.Printf("AddItems: skipping line %d due to invalid isWeapon for item %q: %v", lineNum, record[0], err)
+			skippedRows++
+			continue
 		}
 
 		rows = append(rows, []any{
@@ -132,19 +145,37 @@ func AddItems(conn *pgx.Conn) error {
 		return nil
 	}
 
-	log.Printf("AddItems: parsed rows=%d", len(rows))
+	log.Printf("AddItems: parsed valid rows=%d skipped rows=%d", len(rows), skippedRows)
 
-	copiedCount, err := conn.CopyFrom(
-		context.Background(),
-		pgx.Identifier{"items"},
-		[]string{"id", "type", "rarity", "weightkg", "value", "isWeapon"},
-		pgx.CopyFromRows(rows),
-	)
-	if err != nil {
-		return fmt.Errorf("copy items into table: %w", err)
+	ctx := context.Background()
+	batch := &pgx.Batch{}
+	for _, row := range rows {
+		batch.Queue(
+			`INSERT INTO items (name, type, rarity, weightkg, value, isweapon)
+			 VALUES ($1, $2, $3, $4, $5, $6)
+			 ON CONFLICT (name)
+			 DO UPDATE SET
+			 	type = EXCLUDED.type,
+			 	rarity = EXCLUDED.rarity,
+			 	weightkg = EXCLUDED.weightkg,
+			 	value = EXCLUDED.value,
+			 	isweapon = EXCLUDED.isweapon`,
+			row...,
+		)
 	}
 
-	log.Printf("AddItems: copied rows=%d", copiedCount)
+	batchResults := conn.SendBatch(ctx, batch)
+	for i := 0; i < len(rows); i++ {
+		if _, err := batchResults.Exec(); err != nil {
+			_ = batchResults.Close()
+			return fmt.Errorf("upsert item at batch index %d: %w", i, err)
+		}
+	}
+	if err := batchResults.Close(); err != nil {
+		return fmt.Errorf("finalize item upsert batch: %w", err)
+	}
+
+	log.Printf("AddItems: upserted rows=%d", len(rows))
 
 	return nil
 }
