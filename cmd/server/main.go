@@ -1,6 +1,7 @@
 package main
 
 import (
+	"arcRaidersAPI/cmd/server/routes"
 	"arcRaidersAPI/cmd/sqlfuncs"
 	"log"
 
@@ -22,7 +23,7 @@ func main() {
 		}
 	}()
 
-	sqlfuncs.AddItems(conn)
+	routes.RegisterRoutes(r, conn)
 
 	r.Run()
 

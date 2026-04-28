@@ -15,6 +15,16 @@ import (
 	"github.com/jackc/pgx/v5"
 )
 
+type Item struct {
+	ID       int32    `json:"id"`
+	Name     string   `json:"name"`
+	Type     string   `"json:type"`
+	Rarity   string   `"json:rarity"`
+	WeightKg *float64 `json:"weight,omitempty"`
+	Value    *float64 `json:"value,omitempty"`
+	IsWeapon bool     `json:"isWeapon"`
+}
+
 func ConnectToDB() (*pgx.Conn, error) {
 	DB_CONNECT := os.Getenv("DB_CONNECT")
 	DB_USER := os.Getenv("DB_USER")
@@ -192,4 +202,40 @@ func parseNullableFloat(raw string) (any, error) {
 	}
 
 	return parsed, nil
+}
+
+func GetAllItems(conn *pgx.Conn) ([]Item, error) {
+	rows, err := conn.Query(context.Background(), `
+	SELECT id, name, type, rarity, weightkg, value, isweapon
+	FROM items
+	ORDER BY id
+	`)
+
+	if err != nil {
+		return nil, err
+	}
+	defer rows.Close()
+
+	items := make([]Item, 0)
+	for rows.Next() {
+		var item Item
+		if err := rows.Scan(
+			&item.ID,
+			&item.Name,
+			&item.Type,
+			&item.Rarity,
+			&item.WeightKg,
+			&item.Value,
+			&item.IsWeapon,
+		); err != nil {
+			return nil, err
+		}
+		items = append(items, item)
+	}
+
+	if err := rows.Err(); err != nil {
+		return nil, err
+	}
+	return items, nil
+
 }
